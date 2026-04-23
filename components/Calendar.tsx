@@ -27,8 +27,8 @@ export function Calendar({ year = 2025, month = 9, highlightDay = 8 }) {
   for (let i = 1; i <= daysInMonth; i++) calendarDays.push(i);
 
   return (
-    <div className="p-6 my-15 ">
-      <div className="mt-15 py-10 rounded-b-[100px]  bg-[#1F1F1F]  text-center">
+    <div className=" my-15 ">
+      <div className="mt-15 py-10 bg-[#580000]  text-center">
         <h2 className="text-2xl FontMassis font-bold text-[#FFFDFB] tracking-[15%] mb-1">
           {monthNames[month - 1]}
         </h2>
