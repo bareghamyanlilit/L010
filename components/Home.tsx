@@ -211,7 +211,8 @@ export function Home() {
             Dress Code
           </motion.h3>
 
-          <p className="FontSHK_Dzeragir text-3xl tracking-widest mb-20">{txt2}</p>
+          <motion.p 
+          {...anim} className="FontSHK_Dzeragir text-3xl tracking-widest mb-20">{txt2}</motion.p>
           <Image
             src="/img3.jpg"
             width={500}
@@ -223,7 +224,6 @@ export function Home() {
 
         {/* hethashxvark */}
         <TimeBox />
-
 
         {/* errord mas vazox tox + nkar */}
         <div className=" mt-20 relative w-full  text-3xl text-vrayi ">
@@ -322,6 +322,7 @@ export function Home() {
             <div className=" absolute z-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  w-[65vw]  h-[65vw]  min-[700px]:w-[30vw] min-[700px]:h-[30vw] rotate-45  bg-guyn "></div>
           </div>
         </div>
+
         {/* erb asen teqst */}
         <motion.p
           {...anim}
