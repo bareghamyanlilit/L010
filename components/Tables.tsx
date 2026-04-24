@@ -2,7 +2,7 @@ import ImageZoom from "./ImageZoom";
 
 export function Tables() {
   return (
-    <div className="FontMassis tracking-[20%] p-7 flex flex-col gap-10 items-center">
+    <div className="FontSHK_Dzeragir tracking-[20%] p-7 flex flex-col gap-10 items-center">
       <ImageZoom src="/table1.png" alt="image" />
 
       <a

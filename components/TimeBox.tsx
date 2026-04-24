@@ -43,7 +43,7 @@ export function TimeBox() {
   return (
     <motion.section
       {...anim}
-      className=" my-20 FontMassis flex flex-col gap-5 text-center  text-vrayi  px-0 "
+      className=" my-20 FontSHK_Dzeragir flex flex-col gap-5 text-center  text-vrayi  px-0 "
     >
       <div className="">
         {timeLeft.finished ? (
@@ -65,7 +65,7 @@ export function TimeBox() {
 
 const TimeBoxItem = ({ label, value }: any) => (
   <div className=" text-[40px] px-5 text-center ">
-    <h2 className="mt-1 FontMassis">{value}</h2>
-    <p className="FontMassis text-2xl">{label}</p>
+    <h2 className="mt-1 FontSHK_Dzeragir">{value}</h2>
+    <p className="FontSHK_Dzeragir text-2xl">{label}</p>
   </div>
 );

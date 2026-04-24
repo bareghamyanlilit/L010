@@ -27,16 +27,16 @@ export function Calendar({ year = 2025, month = 9, highlightDay = 8 }) {
   for (let i = 1; i <= daysInMonth; i++) calendarDays.push(i);
 
   return (
-    <div className=" my-15 ">
-      <div className="mt-15 py-10 bg-[#580000]  text-center">
-        <h2 className="text-2xl FontMassis font-bold text-[#FFFDFB] tracking-[15%] mb-1">
+    <div className=" my-20 ">
+      <div className="mt-20 py-10 bg-guyn  text-center">
+        <h2 className="text-2xl FontSHK_Dzeragir font-bold text-[#FFFDFB] tracking-[15%] mb-1">
           {monthNames[month - 1]}
         </h2>
-        <p className="text-2xl FontMassis text-[#FFFDFB] tracking-[10%] font-bold mb-4">{year}</p>
+        <p className="text-2xl FontSHK_Dzeragir text-[#FFFDFB] tracking-[10%] font-bold mb-4">{year}</p>
 
         <div className=" bg-[#FFFDFB] p-2 grid grid-cols-7 mb-2 text-sm font-medium text-vrayi">
           {weekDays.map((day) => (
-            <div className="FontMassis font-bold " key={day}>
+            <div className="FontSHK_Dzeragir font-bold " key={day}>
               {day}
             </div>
           ))}
@@ -47,7 +47,7 @@ export function Calendar({ year = 2025, month = 9, highlightDay = 8 }) {
             day ? (
               <div
                 key={idx}
-                className={` FontMassis py-2 rounded-full ${
+                className={` FontSHK_Dzeragir py-2 rounded-full ${
                   day === highlightDay
                     ? " text-vra[#FFFDFB] yi text-xl flex items-center justify-center"
                     : "text-[#FFFDFB] "

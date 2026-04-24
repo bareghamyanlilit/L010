@@ -152,7 +152,7 @@ export default function AttendanceGuests() {
 
   return (
     <div className="mx-auto w-full max-w-3xl p-6">
-      <h1 className="text-3xl font-bold text-vrayi text-center mb-15">
+      <h1 className="text-3xl font-bold text-vrayi text-center mb-20">
         Հրավերի պատասխան
       </h1>
 
@@ -186,7 +186,7 @@ export default function AttendanceGuests() {
             onClick={() => handleFamilySideChange("Հարսի կողմից")}
             className={`flex-1 p-3 rounded-lg border transition-all duration-200 ${
               formData.familySide === "Հարսի կողմից"
-                ? "bg-[#2F261D] text-[#FFFDFB] border-[#2F261D]"
+                ? "bg-guyn text-[#FFFDFB] border-guyn"
                 : "bg-[#FFFDFB] text-black border-gray-300"
             }`}
           >
@@ -198,7 +198,7 @@ export default function AttendanceGuests() {
             onClick={() => handleFamilySideChange("Փեսայի կողմից")}
             className={`flex-1 p-3 rounded-lg border transition-all duration-200 ${
               formData.familySide === "Փեսայի կողմից"
-                ? "bg-[#2F261D] text-[#FFFDFB] border-[#2F261D]"
+                ? "bg-guyn text-[#FFFDFB] border-guyn"
                 : "bg-[#FFFDFB] text-black border-gray-300"
             }`}
           >
@@ -213,7 +213,7 @@ export default function AttendanceGuests() {
             onClick={() => handleAttendingChange("Այո")}
             className={`flex-1 p-3 rounded-lg border transition-all duration-200 ${
               formData.attending === "Այո"
-                ? "bg-[#2F261D] text-[#FFFDFB] border-[#2F261D]"
+                ? "bg-guyn text-[#FFFDFB] border-guyn"
                 : "bg-[#FFFDFB] text-black border-gray-300"
             }`}
           >
@@ -225,7 +225,7 @@ export default function AttendanceGuests() {
             onClick={() => handleAttendingChange("Ոչ")}
             className={`flex-1 p-3 rounded-lg border transition-all duration-200 ${
               formData.attending === "Ոչ"
-                ? "bg-[#2F261D] text-[#FFFDFB] border-[#2F261D]"
+                ? "bg-guyn text-[#FFFDFB] border-guyn"
                 : "bg-[#FFFDFB] text-black border-gray-300"
             }`}
           >
@@ -258,7 +258,7 @@ export default function AttendanceGuests() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full p-3 bg-[#2F261D] text-[#FFFDFB] rounded-lg"
+          className="w-full p-3 bg-guyn text-[#FFFDFB] rounded-lg"
         >
           {isSubmitting ? "Ուղարկվում է..." : "Ուղարկել"}
         </button>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="FontMassis bottom-0 py-10 text-xl text-center text-[#FFFDFB]  bg-[#1F1F1F] ">
+    <footer className="FontSHK_Dzeragir bottom-0 py-10 text-xl text-center text-[#FFFDFB]  bg-guyn ">
       
       <Link href="https://www.instagram.com/siteup.am/">
         <p className="mt-2 text-2xl">

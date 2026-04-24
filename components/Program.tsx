@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export function Program() {
   return (
-    <div className="FontMassis text-vrayi py-5 tracking-[25%]">
-      <motion.h3 {...anim} className=" relative text-2xl font-bold mb-30">
+    <div className="FontSHK_Dzeragir text-vrayi py-5 tracking-[25%]">
+      <motion.h3 {...anim} className=" relative  text-[40px] tracking-widest font-bold mb-20">
         ժԱՄԱՆԱԿԱՑՈՒՅՑ
       </motion.h3>
       <div className="flex flex-col ">
